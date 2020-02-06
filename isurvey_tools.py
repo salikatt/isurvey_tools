@@ -200,7 +200,7 @@ class iSurveyTools:
         icon_path = ':/plugins/isurvey_tools/icon_etr.png'
         self.add_action(
             icon_path,
-            text=self.tr(u'Import Runline'),
+            text=self.tr(u'Import Track'),
             callback=self.run_importTrack,
             parent=self.iface.mainWindow())
 
